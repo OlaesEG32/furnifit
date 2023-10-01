@@ -1,0 +1,138 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+p{
+    color: grey;
+}
+
+/*Title Section*/
+#title{
+    background-color: #12486B;
+    padding: 3% 15% 5%;
+}
+.brand-title{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.links{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.20rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.navbar{
+    margin: 0 0 4.5rem;
+}
+.btn-download{
+    margin: 5% 3% 5% 0;
+}
+.fab-icon{
+    margin-right: 8px;
+}
+
+
+/*Footer Section*/
+#footer{
+    padding: 7% 7%;
+    text-align: center;
+}
+.foot-icon{
+    padding: 20px 10px;
+}
+
+@media (max-width: 1024px){
+    .title-quote{
+        font-size: 3rem;
+    }
+    .title-img{
+        transform: rotate(0);
+    }
+    .btn-download{
+        margin-right: 6px;
+    }
+    .links{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px){
+    .title-img{
+        position: relative;
+        left: 100px;
+        width: 60%;
+    }
+    .column-one{
+        text-align: center;
+    }
+}
+
+@media (max-width: 426px){
+    .title-img{
+        position: relative;
+        left: 60px;
+        width: 60%;
+    }
+    .title-quote{
+        font-size: 2.5rem;
+    }
+    .testimonial-text{
+        font-size: 2rem;
+    }
+    .feature-title{
+        font-size: 1.5rem;
+    }
+    .price-heading, .price-text{
+        font-size: 2.5rem;
+    }
+    .cta-title{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 376px){
+    .title-img{
+        position: relative;
+        left: 50px;
+        width: 60%;
+    }
+    .title-quote{
+        font-size: 2.5rem;
+    }
+    .testimonial-text{
+        font-size: 1.5rem;
+    }
+    .navbar{
+        margin: 0 0 1.5rem;
+    }
+    .brand-title{
+        font-size: 2rem;
+    }
+    .feature-title{
+        font-size: 1rem;
+    }
+    p{
+        font-size: smaller;
+    }
+    .price-heading, .price-text{
+        font-size: 2rem;
+    }
+    .cta-title{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 320px){
+    .title-img{
+        position: relative;
+        left: 40px;
+        width: 60%;
+    }
+    .title-quote{
+        font-size: 2rem;
+    }
+}
